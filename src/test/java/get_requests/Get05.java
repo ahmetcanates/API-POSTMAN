@@ -1,13 +1,13 @@
 package get_requests;
 
-import base_urls.HerokuAppBaseUrl;
+import base_urls.HerOkuAppBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Get05 extends HerokuAppBaseUrl {
+public class Get05 extends HerOkuAppBaseUrl {
     /*
         Given
             https://restful-booker.herokuapp.com/booking
