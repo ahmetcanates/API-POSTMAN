@@ -1,6 +1,6 @@
 package get_requests;
 
-import base_urls.HerokuAppBaseUrl;
+import base_urls.HerOkuAppBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Get06 extends HerokuAppBaseUrl {
+public class Get06 extends HerOkuAppBaseUrl {
     /*
         Given
             https://restful-booker.herokuapp.com/booking/23
